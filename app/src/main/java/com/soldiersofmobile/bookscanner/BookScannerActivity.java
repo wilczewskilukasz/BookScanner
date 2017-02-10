@@ -69,9 +69,9 @@ public class BookScannerActivity extends AppCompatActivity {
 
                         //send VolumeInfo to the BookDetailsActivity
                         //TODO create activity and uncomment this code
-                        //Intent intent = new Intent(BookScannerActivity.this, BookDetailsActivity.class);
-                        //intent.putExtra(VOLUME_INFO_EXTRA, volumeInfo);
-                        //startActivity(intent);
+                        Intent intent = new Intent(BookScannerActivity.this, BookDetailsActivity.class);
+                        intent.putExtra(VOLUME_INFO_EXTRA, volumeInfo);
+                        startActivity(intent);
                     }
                 }
             }
